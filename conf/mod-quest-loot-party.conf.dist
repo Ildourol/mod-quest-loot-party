@@ -1,0 +1,22 @@
+[worldserver]
+
+#
+#    QuestParty.Message
+#        Description: Display a notification message upon player login.
+#        Values:      true (enabled), false (disabled)
+#        Default:     false
+#
+
+QuestParty.Message = false
+
+#
+#    QuestParty.Enable
+#        Description: Allows normal-quality quest loot items to be looted by each qualifying party member.
+#                     This does not automatically deposit items into bags or auto-complete quests;
+#                     each party member must loot the corpse individually.
+#                     AoE Loot preserves corpse ownership by keeping party-specific loot on the original corpse.
+#        Values:      true (enabled), false (disabled)
+#        Default:     true
+#
+
+QuestParty.Enable = true
